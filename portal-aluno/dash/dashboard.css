@@ -68,7 +68,42 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+button {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: red;
+    transform: scale(1.06);
+    transition: 0.3s;
+}
+
+.add {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+}
+
+.add:hover {
+    background-color: green;
+    color: #f4f4f4;
+    transform: scale(1.08);
+    border: none;
+    transition: 0.3s;
+}
+
+input {
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+    padding: 10px;
+}
+
