@@ -97,3 +97,11 @@ document.getElementById('form-outra-funcao').addEventListener('submit', function
         inputOutraFuncao.value = ''; // Limpa o campo após adicionar
     }
 });
+
+function logout() {
+    // Limpar dados do localStorage, caso você esteja utilizando para armazenar a sessão
+    localStorage.removeItem('userEmail');  // Se você armazenou o e-mail do usuário no localStorage, por exemplo.
+
+    // Redirecionar o usuário para a página de login
+    window.location.href = '/portal-aluno/login/index.html';  // Redireciona para a página de login
+}
