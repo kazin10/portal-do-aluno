@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background: #e2e61e;
-    color: white;
+    background: #eeff07;
+    color: rgb(0, 0, 0);
     padding: 15px;
 }
 
@@ -44,8 +44,8 @@ main {
 }
 
 footer {
-    background: #007BFF;
-    color: white;
+    background: #e5ff00;
+    color: rgb(0, 0, 0);
     padding: 10px;
     position: absolute;
     bottom: 0;

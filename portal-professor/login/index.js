@@ -6,7 +6,7 @@ function login(event) {
     var pass = document.getElementById("password").value;
 
     if (email === "admin@gmail.com" && pass === "admin") {
-        window.location.href = '/dash/dashboard.html';
+        window.location.href = '/portal-professor/dash/dashboard.html';
     } else {
         console.log("Email ou Senha incorretos!");
     }
