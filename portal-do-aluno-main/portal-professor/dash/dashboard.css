@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #f8e804;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 10px;
+    color: rgb(14, 9, 9);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+details {
+    background: rgb(255, 255, 255);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+summary {
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #ffe600;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: red;
+    transform: scale(1.06);
+    transition: 0.3s;
+}
+
+.add {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.add:hover {
+    background-color: green;
+    color: #f4f4f4;
+    transform: scale(1.08);
+    border: none;
+    transition: 0.3s;
+}
+
+input {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+}
+
+button:hover {
+    color: red;
+    transform: scale(1.06);
+    transition: 0.3s;
+}
+
+.add {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+}
+
+.add:hover {
+    background-color: green;
+    color: #f4f4f4;
+    transform: scale(1.08);
+    border: none;
+    transition: 0.3s;
+}
+
+input {
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#logout-btn {
+    background-color: #f44336;  /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto; /* Posiciona o botão à direita */
+    display: block;
+    margin-top: 10px;
+}
+
+#logout-btn:hover {
+    background-color: #e53935;  /* Tom de vermelho mais escuro no hover */
+}
